@@ -31,7 +31,7 @@ function AboutInfo() {
                     </div>
                     <div className="col-lg-6 image">
                         
-                    <img src={`/assets/me.jpg`} alt="" class="img-fluid"/>
+                    <img src={process.env.PUBLIC_URL + '/assets/me.jpg'} alt="" class="img-fluid"/>
                     </div>
                 </div>
             </div>

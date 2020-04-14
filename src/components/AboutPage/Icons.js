@@ -2,6 +2,7 @@ import React from 'react'
 import "../styles/AboutPage.css"
 
 function Icons() {
+    console.log(process.env.PUBLIC_URL)
     return (
         <div class="wrapper">
             <ul class="skill-icons">
@@ -38,7 +39,7 @@ function Icons() {
                     <p>Git</p>
                 </li>
                 <li>
-                    <img src={`/assets/mongodb.png`} style={{width: "10vh"}}/>
+                    <img src={process.env.PUBLIC_URL + '/assets/mongodb.png'} style={{width: "10vh"}}/>
                     <p>mongoDB</p>
                 </li>
             </ul>
