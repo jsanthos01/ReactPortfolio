@@ -7,7 +7,7 @@ function MiniCards(props) {
     return (
         <div class="col-lg-4 col-md-6 col-12 opCards">
             <div class="opBody">
-                <img src={require(`../assets/${props.image}`)} alt="project images" class="img-fluid"/>
+                <img src={process.env.PUBLIC_URL + `public/assets/${props.image}`} alt="" class="img-fluid"/>
                 <h4 class="opTitle">{props.name}</h4>
                 <p>{props.description}</p>
                 <div class="linksDiv">

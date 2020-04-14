@@ -19,7 +19,7 @@ function Cards(props) {
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12 ">
-                    <img src={require(`../assets/${props.image}`)} alt="" class="img-fluid"/>
+                <img src={process.env.PUBLIC_URL + `public/assets/${props.image}`} alt="" class="img-fluid"/>
                 </div>
             </div>
         </div> 

@@ -2,7 +2,6 @@ import React from 'react'
 import Header from './Header'
 import Icons from './Icons'
 import Footer from '../Footer/Footer'
-import picture from '../assets/me.jpg'
 import "../styles/AboutPage.css"
 
 
@@ -32,7 +31,7 @@ function AboutInfo() {
                     </div>
                     <div className="col-lg-6 image">
                         
-                        <img src={picture}  alt="Picture of Joanna" />
+                    <img src={process.env.PUBLIC_URL + public/assets/menubar.jpg} alt="" class="img-fluid"/>
                     </div>
                 </div>
             </div>

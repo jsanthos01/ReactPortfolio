@@ -1,5 +1,4 @@
 import React from 'react'
-import mongo from '../assets/mongodb.png'
 import "../styles/AboutPage.css"
 
 function Icons() {
@@ -39,7 +38,7 @@ function Icons() {
                     <p>Git</p>
                 </li>
                 <li>
-                    <img src={mongo} style={{width: "10vh"}}/>
+                    <img src={process.env.PUBLIC_URL + public/assets/mongodb.png} style={{width: "10vh"}}/>
                     <p>mongoDB</p>
                 </li>
             </ul>
