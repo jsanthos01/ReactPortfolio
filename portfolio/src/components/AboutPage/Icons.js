@@ -38,7 +38,7 @@ function Icons() {
                     <p>Git</p>
                 </li>
                 <li>
-                    <img src={process.env.PUBLIC_URL + public/assets/mongodb.png} style={{width: "10vh"}}/>
+                    <img src={process.env.PUBLIC_URL + 'public/assets/mongodb.png'} style={{width: "10vh"}}/>
                     <p>mongoDB</p>
                 </li>
             </ul>
