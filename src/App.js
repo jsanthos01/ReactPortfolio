@@ -14,7 +14,7 @@ function App() {
           <Route exact path="/portfolio" component={PortfolioPage} />
           <Route exact path="/contacts" component={ContactPage} />
           <Route exact path="/resume" component={ContactPage} />
-          <Route exact path={["/","ReactPortfolio/"]} component={AboutPage} />
+          <Route exact path={["/","/ReactPortfolio/"]} component={AboutPage} />
         </div>
       </Router>
   );
