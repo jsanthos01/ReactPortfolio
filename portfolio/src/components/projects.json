@@ -1,0 +1,33 @@
+
+[
+    {
+        "name": "Farmer's Friend",
+        "description": "A simple application that focuses on providing an efficient and easy platform for farmers. It allows them to gain knowledge on suitable crops for their location. ", 
+        "technologies": ["jQuery","Javascript","HTML & CSS(3)", "Web API (Agro Api)"],
+        "links": {
+            "github": "https://github.com/jsanthos01/Fitness-Diaries",
+            "heroku": "https://fitness-diaries.herokuapp.com/"
+        },
+        "image":"farmers.PNG"
+    },
+    {
+        "name": "Fitness Diaries",
+        "description": "Fitness Diaries is a full-stack web application that uses MVC design pattern with local server-side API. It is designed for people who would like to follow a fitness regime or lose weight with a socializing aspect attached.  ", 
+        "technologies": ["Web API (spoonacular, wger)","NodeJS","HTML & CSS(3)", "JS & jQuery", "MySQL"],
+        "links": {
+            "github": "https://github.com/jsanthos01/Fitness-Diaries",
+            "heroku": "https://fitness-diaries.herokuapp.com/"
+        },
+        "image":"fitnessD.PNG"
+    },
+    {
+        "name": "Movie Buzz",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt delectus iusto voluptatibus veniam veritatis unde ut itaque esse voluptate beatae?", 
+        "technologies": ["MongoDB","NodeJS","React", "Bootstrap"],
+        "links": {
+            "github": "https://github.com/koustub/farmerPeer",
+            "heroku": "https://koustub.github.io/farmerPeer/index.html"
+        },
+        "image":"movie.PNG"
+    }
+]

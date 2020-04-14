@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Weather DashBoard",
+        "description": "A simple weather app that retrieves the current weather and 5 day forecast data for any location you choose. Technologies used are:jQuery, OpenWeather API, HTML & CSS, Javascript ", 
+        "technologies": "Javascript",
+        "links": {
+            "github": "https://github.com/jsanthos01/Weather-Dashboard",
+            "heroku": "https://jsanthos01.github.io/Weather-Dashboard/"
+        },
+        "image":"weather.PNG"
+    },
+    {
+        "name": "Code Quiz",
+        "description": "Timer-based quiz application that shows multiple choice questions & save/store (local storage) your final score.Technologies used: Javascript, HTML & CSS", 
+        "technologies": "Javascript",
+        "links": {
+            "github": "https://github.com/jsanthos01/Code-Quiz",
+            "heroku": "https://jsanthos01.github.io/Code-Quiz/"
+        },
+        "image":"quiz3.PNG"
+    },
+    {
+        "name": "User Directory",
+        "description": "This is a simple React application that create a employee directory. As a user, I want to be able to view my entire employee directory at once so that I have quick access to each employee's information. Technologies used: React.", 
+        "technologies": "React",
+        "links": {
+            "github": "https://github.com/jsanthos01/User-Directory/tree/master/userapp",
+            "heroku": "https://jsanthos01.github.io/User-Directory/"
+        },
+        "image":"employee.PNG"
+    },
+    {
+        "name": "Employee Tracker",
+        "description": "This is a simple command-line application that manages a company's employee information using node, inquirer, and MySQL. The command line will ask you for all the information required to build a team and then generate an output.", 
+        "technologies": ["MySQL"],
+        "links": {
+            "github": "https://github.com/jsanthos01/SQL-EmployeeTracker",
+            "heroku": ""
+        },
+        "image":"sql.PNG"
+    }
+]
